@@ -7,5 +7,5 @@ Second version of the TR82 project; proper PCB's this time. More info to come.
 
 - done: first schematic & board design
 - done: breadboard and test
-- todo: design frontpanel
+- done: design frontpanel
 - todo: order PCB and build prototype
