@@ -8,7 +8,7 @@ can control how 'hard' you hit the drums. Higher levels means more 'accent'.
 
 The Designs and Mods of the drum voices are the same as in the 'original' TR82.
 
-There is a 'internal trigger' connection added to the mainboarb of the PCB. This can be used to hook it up to
+There is a 'internal trigger' connection added to the mainboard of the PCB. This can be used to hook it up to
 a seperate controller board. Maybe :). 
 
 ### Links
