@@ -13,7 +13,7 @@ a seperate controller board. Maybe :).
 
 ### Links
 
-https://www.gerbster.nl/tr82/
+https://www.gerbster.nl/tr82/  
 https://www.elby-designs.com/webtek/cgs/cgs24/cgs24_gatetotrigger.html
 
 ## Status: Work in Progress
