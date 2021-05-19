@@ -28502,6 +28502,7 @@ high speed (Philips)</description>
 <part name="P+16" library="supply1" deviceset="+12V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
+<part name="INT_TRG_CON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -29121,6 +29122,10 @@ high speed (Philips)</description>
 <instance part="P-1" gate="1" x="294.64" y="48.26" smashed="yes">
 <attribute name="VALUE" x="292.1" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="INT_TRG_CON" gate="A" x="256.54" y="284.48" smashed="yes">
+<attribute name="NAME" x="250.19" y="290.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="250.19" y="276.86" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29364,6 +29369,11 @@ high speed (Philips)</description>
 <pinref part="SD_CON" gate="A" pin="1"/>
 <wire x1="124.46" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <label x="116.84" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="INT_TRG_CON" gate="A" pin="3"/>
+<wire x1="254" y1="281.94" x2="246.38" y2="281.94" width="0.1524" layer="91"/>
+<label x="246.38" y="281.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -30164,6 +30174,11 @@ high speed (Philips)</description>
 <wire x1="83.82" y1="294.64" x2="76.2" y2="294.64" width="0.1524" layer="91"/>
 <label x="76.2" y="294.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="INT_TRG_CON" gate="A" pin="1"/>
+<wire x1="254" y1="287.02" x2="241.3" y2="287.02" width="0.1524" layer="91"/>
+<label x="246.38" y="287.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BD2_TRIGGER" class="0">
 <segment>
@@ -30175,6 +30190,11 @@ high speed (Philips)</description>
 <wire x1="332.74" y1="393.7" x2="325.12" y2="393.7" width="0.1524" layer="91"/>
 <label x="325.12" y="393.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="BD2_CON" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="INT_TRG_CON" gate="A" pin="2"/>
+<wire x1="254" y1="284.48" x2="223.52" y2="284.48" width="0.1524" layer="91"/>
+<label x="223.52" y="284.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$58" class="0">
