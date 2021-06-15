@@ -21156,15 +21156,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="BD2_TRIGGER" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="SD_TRIGGER" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
 <part name="SD_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device="" value=""/>
-<part name="BD1_TONE" library="TomW" deviceset="ALPHA-9MM" device="A"/>
-<part name="BD1_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A"/>
+<part name="BD1_TONE" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k log"/>
+<part name="BD1_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k log"/>
 <part name="BD1_VOLUME" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k log"/>
-<part name="BD2_DECAY" library="TomW" deviceset="ALPHA-9MM" device="A"/>
+<part name="BD2_DECAY" library="TomW" deviceset="ALPHA-9MM" device="A" value="1M log"/>
 <part name="BD2_VOLUME" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k log"/>
-<part name="BD2_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A"/>
-<part name="SD_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A"/>
-<part name="SD_NOISE" library="TomW" deviceset="ALPHA-9MM" device="A"/>
-<part name="SD_SNAPPY" library="TomW" deviceset="ALPHA-9MM" device="A"/>
+<part name="BD2_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k log"/>
+<part name="SD_TUNE" library="TomW" deviceset="ALPHA-9MM" device="A" value="1k lin"/>
+<part name="SD_NOISE" library="TomW" deviceset="ALPHA-9MM" device="A" value="100k lin"/>
+<part name="SD_SNAPPY" library="TomW" deviceset="ALPHA-9MM" device="A" value="50k lin"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
@@ -21178,13 +21178,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="220"/>
 <part name="BD1_CON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="4.7k"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="1uF/50v"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SD_DECAY" library="TomW" deviceset="ALPHA-9MM" device="A"/>
+<part name="SD_DECAY" library="TomW" deviceset="ALPHA-9MM" device="A" value="100k lin"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SD_CON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
 <part name="IC1" library="TomW" deviceset="TL072" device="P"/>
@@ -21263,8 +21263,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="1u/50v"/>
-<part name="C17" library="resistor" deviceset="C-EU" device="050-024X044" value="0.01u"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="1uF/50v"/>
+<part name="C17" library="resistor" deviceset="C-EU" device="050-024X044" value=".01uF"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="OUT_CON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="BD2_CON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
@@ -22414,6 +22414,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="190.5" y1="33.02" x2="190.5" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="PWR_CON" gate="A" pin="1"/>
 <wire x1="190.5" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="317.5" y1="213.36" x2="317.5" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
