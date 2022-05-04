@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fixed wrong header positions
 - Fixed SD output
+- Fixed gate-to-trigger issue
 
 ## [1.0.0] - 2021-18-05
 
