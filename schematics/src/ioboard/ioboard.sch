@@ -21408,9 +21408,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND12" gate="1" x="292.1" y="40.64" smashed="yes">
 <attribute name="VALUE" x="289.56" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="SD_DECAY" gate="G$1" x="340.36" y="66.04" smashed="yes">
-<attribute name="NAME" x="335.28" y="63.5" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="337.82" y="63.5" size="1.778" layer="96" rot="R90"/>
+<instance part="SD_DECAY" gate="G$1" x="340.36" y="66.04" smashed="yes" rot="MR180">
+<attribute name="NAME" x="335.28" y="68.58" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="337.82" y="68.58" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="GND13" gate="1" x="340.36" y="38.1" smashed="yes">
 <attribute name="VALUE" x="337.82" y="35.56" size="1.778" layer="96"/>
@@ -22277,10 +22277,10 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="SD_DECAY_A" class="0">
 <segment>
-<pinref part="SD_DECAY" gate="G$1" pin="E"/>
-<wire x1="340.36" y1="73.66" x2="340.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="76.2" x2="350.52" y2="76.2" width="0.1524" layer="91"/>
 <label x="350.52" y="76.2" size="1.778" layer="95" xref="yes"/>
+<pinref part="SD_DECAY" gate="G$1" pin="A"/>
+<wire x1="340.36" y1="73.66" x2="340.36" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SD_CON" gate="A" pin="6"/>
@@ -22290,15 +22290,15 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="SD_DECAY" gate="G$1" pin="A"/>
-<wire x1="340.36" y1="58.42" x2="340.36" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="53.34" x2="340.36" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="55.88" x2="347.98" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="55.88" x2="347.98" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="SD_DECAY" gate="G$1" pin="E"/>
+<wire x1="340.36" y1="55.88" x2="340.36" y2="58.42" width="0.1524" layer="91"/>
+<junction x="340.36" y="55.88"/>
 <pinref part="SD_DECAY" gate="G$1" pin="S"/>
 <wire x1="347.98" y1="66.04" x2="345.44" y2="66.04" width="0.1524" layer="91"/>
-<junction x="340.36" y="55.88"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">

@@ -27047,7 +27047,7 @@ high speed (Philips)</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="resistor" deviceset="C-EU" device="050-024X044" value=".056uF"/>
 <part name="C15" library="resistor" deviceset="C-EU" device="050-024X044" value=".056uF"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="6.6k"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="3.3k"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="680k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
